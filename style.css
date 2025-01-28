@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(4, 93, 131);
+    font-family: Verdana, Tahoma, sans-serif;
+    color: white;
+}
+
+.container{
+    background-color: rgb(12, 79, 107);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px black;
+    max-width: 60%;
+    text-align: center;
+}
+
+input[type="text"]{
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 20px;
+    width: 70%;
+
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(3, 61, 86);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+#responseData{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
